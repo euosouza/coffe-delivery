@@ -3,8 +3,8 @@ import { ThemeProvider  } from "styled-components";
 
 import { Router } from "./Router";
 
-import { GlobalStyles } from "./styles/globlal";
-import { theme } from "./styles/theme";
+import { GlobalStyles } from "./assets/styles/globlal";
+import { theme } from "./assets/styles/theme";
 
 function App() {
   return (
