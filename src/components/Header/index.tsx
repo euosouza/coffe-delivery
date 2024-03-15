@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { MapPin, ShoppingCart } from "@phosphor-icons/react";
 
 import urlImage from "../../assets/images/logo.svg";
-import { Container } from "../../assets/pages/Container";
+import { Container } from "../Container";
 
 import {
   HeaderWrapper,
