@@ -8,4 +8,8 @@ export const GlobalStyles = createGlobalStyle`
     font-family: "Inter", sans-serif;
     line-height: 1.2
   }
+
+  body {
+    overflow-x: hidden;
+  }
 `;
