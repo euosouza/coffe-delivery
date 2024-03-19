@@ -5,12 +5,14 @@ import { Router } from "./Router";
 
 import { GlobalStyles } from "./assets/styles/globlal";
 import { theme } from "./assets/styles/theme";
+import { Header } from "./components/Header";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <BrowserRouter>
         <GlobalStyles/>
+        <Header />
         <Router />
       </BrowserRouter>
     </ThemeProvider>
