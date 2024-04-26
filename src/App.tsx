@@ -10,7 +10,7 @@ import { Header } from "./components/Header";
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename="/coffee-delivery">
         <GlobalStyles/>
         <Header />
         <Router />

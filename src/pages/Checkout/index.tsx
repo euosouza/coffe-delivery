@@ -9,7 +9,7 @@ import {
 
 import { Container } from "../../components/Container";
 
-import urlImage from "../../assets/images/coffee-1.png";
+import urlImage from "../../../public/images/coffees/americano.png";
 
 import { CheckoutContainer,
   CheckoutContent,

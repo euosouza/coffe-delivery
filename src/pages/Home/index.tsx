@@ -14,7 +14,7 @@ import {
 
 import { BannerHero } from "../../components/BannerHero";
 
-import urlImage from "../../assets/images/coffee-1.png";
+import urlImage from "../../../public/images/coffees/americano.png";
 import { Container } from "../../components/Container";
 import { InputAmount } from "../../components/InputAmount";
 import { ShoppingCart } from "@phosphor-icons/react";
